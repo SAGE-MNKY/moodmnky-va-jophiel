@@ -69,7 +69,7 @@ export default function App({ Component, pageProps }: AppProps) {
         apiHost="https://flowise-studio.moodmnky.com"
         theme={{
           button: {
-            backgroundColor: "#A6A4A5",
+            backgroundColor: "#B87791",
             right: 20,
             bottom: 20,
             size: "medium",
