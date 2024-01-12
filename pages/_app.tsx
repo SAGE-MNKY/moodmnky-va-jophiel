@@ -65,8 +65,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <BubbleChat
-        chatflowid="0b1a548f-7e61-4c51-a7e9-6fa6bc8850b6"
-        apiHost="https://flowise-workstation.moodmnky.com"
+        chatflowid="593328fb-8ee9-49c8-ad97-702751ee4630"
+        apiHost="https://flowise-studio.moodmnky.com"
         theme={{
           button: {
             backgroundColor: "#A6A4A5",
@@ -74,20 +74,20 @@ export default function App({ Component, pageProps }: AppProps) {
             bottom: 20,
             size: "medium",
             iconColor: "white",
-            customIconSrc: "https://cdn.shopify.com/s/files/1/0693/4328/1426/files/moodmnky-flowise-react-icon-gray.svg",
+            customIconSrc: "https://cdn.shopify.com/s/files/1/0693/4328/1426/files/moodmnky-flowise-react-icon-purple.svg",
           },
           chatWindow: {
-            welcomeMessage: "Welcome to the Dojo! How may I be of service?",
-            backgroundColor: "#A6A4A5",
+            welcomeMessage: "Welcome to the Pearls Prayers! How may I be of service?",
+            backgroundColor: "#B87791",
             height: 700,
             width: 400,
             fontSize: 16,
-            poweredByTextColor: "#A6A4A5",
+            poweredByTextColor: "#B87791",
             botMessage: {
               backgroundColor: "#2F3437",
               textColor: "#FFFFFF",
               showAvatar: true,
-              avatarSrc: "https://cdn.discordapp.com/attachments/1083532452347269220/1195141739934126232/Adobe_Express_2023-11-13_23.20.27.png",
+              avatarSrc: "https://cdn.discordapp.com/attachments/1083532452347269220/1195406532754546688/jophiel-avatar.png",
             },
             userMessage: {
               backgroundColor: "#132731",
@@ -99,7 +99,7 @@ export default function App({ Component, pageProps }: AppProps) {
               placeholder: "Type your question",
               backgroundColor: "#2F3437",
               textColor: "#ffffff",
-              sendButtonColor: "#A6A4A5",
+              sendButtonColor: "#B87791",
             }
           }
         }}
